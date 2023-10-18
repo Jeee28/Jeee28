@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+
+//comparison between array list and generic list 
+
+ArrayList myArrayList = new ArrayList();
+List<int> myGenericlist = new List<int>();
+
+myArrayList.Add(5);
+myArrayList.Add(10);
+myArrayList.Add(14);
+myArrayList.Add("Groo");
+myArrayList.Add(true);
+myArrayList.Add(1234567890.000000);
+//compile time
+
+
+myGenericlist.Add(5);
+myGenericlist.Add(14);
+myGenericlist.Add(10);
+
+
+System.Console.Clear();
+System.Console.WriteLine("myArrayList content");
+foreach(var item in myArrayList){
+    System.Console.WriteLine("\t"+ item);
+}
+
+System.Console.WriteLine();
+
+System.Console.WriteLine("myGenericList content");
+foreach(int item in myGenericlist){
+    System.Console.WriteLine("\t"+item);
+}
+System.Console.WriteLine();

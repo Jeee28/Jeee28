@@ -1,0 +1,51 @@
+using System.Collections;
+using System.Collections.Generic;
+
+//comparison between array list and generic list 
+
+
+List<int> myGenericlist = new List<int>();
+
+
+
+myGenericlist.Add(5);
+myGenericlist.Add(14);
+myGenericlist.Add(10);
+
+
+System.Console.Clear();
+System.Console.WriteLine("myArrayList content");
+
+
+System.Console.WriteLine();
+
+System.Console.WriteLine("myGenericList content");
+foreach(int item in myGenericlist){
+    System.Console.WriteLine("\t"+item);
+}
+System.Console.WriteLine();
+System.Console.WriteLine("\n\n number at index 2 is: "+ myGenericlist[2]);
+
+myGenericlist[2]=99;
+
+System.Console.WriteLine("\n\nnumber at index 2 is : "+myGenericlist[2]);
+
+myGenericlist.Insert(2,88);
+for (int i=0; i < myGenericlist.Count; i++){
+    System.Console.WriteLine("number at index " + i + " is: "+ myGenericlist[i]);
+}
+
+System.Console.WriteLine();
+myGenericlist.RemoveAt(0);
+for(int i = 0; i < myGenericlist.Count; i++){
+     System.Console.WriteLine("number at index " + i + " is: "+ myGenericlist[i]);
+}
+
+System.Console.WriteLine();
+myGenericlist.Sort();
+
+for(int i=0;ii<myGenericlist.Count; i++){
+     System.Console.WriteLine("number at index " + i + " is: "+ myGenericlist[i]);
+}
+System.Console.WriteLine("\n\n99 is located at index: " + myGenericlist.BinarySearch(99));
+System.Console.WriteLine();

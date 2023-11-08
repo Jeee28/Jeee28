@@ -1,0 +1,58 @@
+using System.Collections.Generic;
+
+string []devices = {"Smartphones", "Smartwatches"};
+
+LinkedList<string> myList = new LinkedList<string>(devices);
+System.Console.Clear;
+foreach (var d in myList)
+{
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine("\nNew list...");
+myList.AddFirst("Calculator");
+
+foreach (var d in myList)
+{
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine("\nNew list...");
+myList.AddLast("PDA");
+
+foreach (var d in myList)
+{
+    System.Console.WriteLine(d);
+}
+var n=myList.AddFirst("Android");
+myList.AddAfter(n,"Iphone");
+foreach (var d in myList){
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine("\nNew list...");
+myList.AddBefore(n,"Laptop");
+
+foreach (var d in myList)
+{
+System.Console.WriteLine(d);    
+}
+
+System.Console.WriteLine("Smartphone in the list? "+ myList.Contains("Smartphones"));
+myList.Contains("PC")
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine("\nNew list...");
+myList.Remove("Smartwatches");
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+System.Console.WriteLine("\nNew list...");
+myList.RemoveLast();
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine();

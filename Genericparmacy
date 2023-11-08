@@ -1,0 +1,70 @@
+using System.Collections.Generic;
+using System.Runtime.ConstrainedExecution;
+
+string [] devices = {"Smartphones", "Smartwatches"};
+
+LinkedList<string> myList = new LinkedList<string>(devices);
+
+System.Console.Clear();
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine("\nNew list...");
+myList.AddFirst("Calculators");
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine();
+System.Console.WriteLine("\nNew list...");
+myList.AddFirst("PDA");
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine();
+System.Console.WriteLine("\nNew list...");
+
+var n= myList.AddFirst("iPhone");
+myList.AddBefore(n,"Android");
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine("Smartphones in the list? " + myList.Contains("Smartphones"));
+
+myList.Remove("Smartwatches");
+
+System.Console.WriteLine("\nNew list after removing an element...");
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+
+System.Console.WriteLine("\nNew list after removing first node...");
+myList.RemoveFirst();
+foreach(var d in myList){
+
+    System.Console.WriteLine(d);
+}
+
+myList.Clear();
+System.Console.WriteLine("\nLinked list cleared...");
+System.Console.WriteLine("\nNew list...");
+myList.AddFirst("Printer");
+foreach(var d in myList){
+    System.Console.WriteLine(d);
+}
+
+
+
+
+
+
+
+// myList.AddAfter(n, "Laptop");
+// foreach(var d in myList)
+// {
+//     System.Console.WriteLine(d);
+// }
+

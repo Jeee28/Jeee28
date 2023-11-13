@@ -1,0 +1,117 @@
+System.Console.Clear();
+int numSeats = 10;
+int seatNumber;
+int papel = 250;
+int totald = 0;
+LinkedList<int> seatList = new LinkedList<int>();
+
+for (int i = 1; i <= numSeats; i++)
+{
+    seatList.AddLast(i);
+}
+
+while (true)
+{
+
+    Console.WriteLine("\n1. Reserve a seat");
+    Console.WriteLine("2. Cancel a reservation");
+    Console.WriteLine("3. Display available seats");
+    Console.WriteLine("4. Total Amount Due");
+    Console.WriteLine("5. Quit");
+    Console.Write("Enter your choice: ");
+    int choice = Convert.ToInt32(Console.ReadLine());
+    switch (choice)
+    {
+        case 1:
+        
+            Console.WriteLine("\nAvailable seats: ");
+            foreach (int seat in seatList)
+            {
+                Console.Write(seat + " ");
+            }
+            Console.WriteLine();
+
+            Console.Write("\nEnter the seat number to reserve: ");
+            seatNumber = Convert.ToInt32(Console.ReadLine());
+            if (seatList.Contains(seatNumber))
+            {
+                seatList.Remove(seatNumber);
+                Console.WriteLine($"Seat {seatNumber} has been reserved.");
+                totald+=papel;
+                System.Console.ReadKey();
+                System.Console.Clear();
+            }
+            else
+            {
+                Console.WriteLine($"Seat {seatNumber} is already reserved or doesn't exist.");
+                System.Console.ReadKey();
+                System.Console.Clear();
+            }
+
+
+            break;
+        case 2:
+            Console.WriteLine("\nAvailable seats: ");
+            foreach (int seat in seatList)
+            {
+                Console.Write(seat + " ");
+            }
+            Console.WriteLine();
+
+
+            Console.Write("\nEnter the seat number to cancel the reservation: ");
+            seatNumber = Convert.ToInt32(Console.ReadLine());
+            if (!seatList.Contains(seatNumber))
+            {
+                if (seatNumber >= 1 && seatNumber <= numSeats)
+                {
+                    seatList.AddLast(seatNumber);
+                    Console.WriteLine($"Reservation for seat {seatNumber} has been canceled.");
+                    totald-=papel;
+                    System.Console.ReadKey();
+                    System.Console.Clear();
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid seat number.");
+                    System.Console.ReadKey();
+                    System.Console.Clear();
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Seat {seatNumber} is not reserved or doesn't exist.");
+                System.Console.ReadKey();
+                System.Console.Clear();
+            }
+
+
+            break;
+        case 3:
+            Console.WriteLine("\nAvailable seats: ");
+            foreach (int seat in seatList)
+            {
+                Console.Write(seat + " ");
+            }
+            Console.WriteLine();
+
+            System.Console.ReadKey();
+            System.Console.Clear();
+            break;
+
+        case 4: 
+            System.Console.WriteLine($"\n Total Amount Due: {totald}");
+            System.Console.ReadKey();
+            System.Console.Clear();
+
+            break;
+           
+
+        case 5:
+            Environment.Exit(0);
+            break;
+        default:
+            Console.WriteLine("Invalid choice. Please try again.");
+            break;
+    }
+}

@@ -6,10 +6,11 @@
 
 ---
 
-### 🌟 About Me  
-- 💻 Passionate **Front-End Developer**  
-- 🌱 Currently learning **Vue.js**, **Node.js**, and **Tailwind CSS**  
-- 🛠️ Love building systems that make life easier  
-- ✨ Fun fact: I enjoy learning something new every day  
+### 👨‍💻 About Me
 
----
+<p>
+  <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/laptop.svg" width="20" /> Passionate Front-End Developer <br>
+  <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/book.svg" width="20" /> Currently learning Vue.js, Node.js, and Tailwind CSS <br>
+  <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/wrench.svg" width="20" /> Love building systems that make life easier <br>
+  <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/stars.svg" width="20" /> Fun fact: I enjoy learning something new every day
+</p>

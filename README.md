@@ -15,5 +15,5 @@
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/wrench.svg" width="20" />
   <b>Love building systems that make life easier</b><br>
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/stars.svg" width="20" />
-  <b>Fun fact:</b> I enjoy learning something new every day
+  <b></b> I enjoy learning something new every day
 </p>

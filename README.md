@@ -22,50 +22,6 @@
 
 ---
 
-### ⚔️ Tech & Tools I Use
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,vue,bootstrap,tailwind,php,mysql,nodejs,git,github,vscode" />
-</p>
-
----
-
-### 📊 GitHub Stats (Animated)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" height="165px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF" height="165px"/>
-</p>
-
----
-
-### 🔥 Streak Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=react&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
-</p>
-
----
-
-### 🐍 Watch my contributions come alive!
-<p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake Animation" />
-</p>
-
----
-
-### 🌐 Let's Connect
-<p align="center">
-  <a href="https://facebook.com/YOUR_PROFILE" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=blue" alt="profile views" />
-</p>
-
 <p align="center">
   ✨ “First, solve the problem. Then, write the code.” ✨
 </p>

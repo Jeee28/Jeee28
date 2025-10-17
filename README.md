@@ -1,7 +1,11 @@
-<!-- ✨ Animated GitHub Profile README ✨ -->
+<!-- ✨ Animated GitHub Profile README with Banner GIF ✨ -->
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGlyczd6cjdvcHdidWowYXE0cW5nMmM0Z2xqMnB4eW9ycDhydnBxMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MDJ9IbxxvDUQM/giphy.gif" width="100%" alt="Banner GIF" />
+</p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&pause=1000&color=00F700&center=true&vCenter=true&width=435&lines=Hey+there!+👋;I'm+YOUR+NAME;Welcome+to+my+profile!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Hey+there!+👋;I'm+ Jeee28 ;Welcome+to+my+GitHub!" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -44,7 +48,7 @@
 
 ### 🐍 Watch my contributions come alive!
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Jeee28/jeee28/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake Animation" />
+  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake Animation" />
 </p>
 
 ---
@@ -59,9 +63,9 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Jeee28&style=for-the-badge&color=blue" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=blue" alt="profile views" />
 </p>
 
 <p align="center">
-  ✨ “Code is like humor. When you have to explain it, it’s bad.” ✨
+  ✨ “First, solve the problem. Then, write the code.” ✨
 </p>

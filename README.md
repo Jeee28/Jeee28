@@ -4,9 +4,6 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGlyczd6cjdvcHdidWowYXE0cW5nMmM0Z2xqMnB4eW9ycDhydnBxMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MDJ9IbxxvDUQM/giphy.gif" width="100%" alt="Banner GIF" />
 </p>
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Hey+there!+👋;I'm+ Jeee28 ;Welcome+to+my+GitHub!" alt="Typing SVG" />
-</h1>
 
 <p align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40px" alt="Waving hand" />
@@ -21,7 +18,3 @@
 - ✨ Fun fact: I enjoy learning something new every day  
 
 ---
-
-<p align="center">
-  ✨ “First, solve the problem. Then, write the code.” ✨
-</p>

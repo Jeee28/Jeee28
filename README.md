@@ -1,7 +1,7 @@
 <!-- ✨ Animated GitHub Profile README with Banner GIF ✨ -->
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnhteHg3enh2c2kwYzE0cHc4Y2J5cTYyajF6OXBnY290eGVsaWs2dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/AHj0lQstZ9I9W/giphy.gif" width="100%" alt="Banner GIF" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnhteHg3enh2c2kwYzE0cHc4Y2J5cTYyajF6OXBnY290eGVsaWs2dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/AHj0lQstZ9I9W/giphy.gif" width="50%" alt="Banner GIF" />
 </p>
 
 

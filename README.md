@@ -4,11 +4,6 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Yzl2cm5lNGI0YnE3NGY0ZnZwb3Y0emNna2ZkMTBneGltc3Z2aGRkbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/eHQ5BsgBIBIGI/giphy.gif" width="100%" alt="Banner GIF" />
 </p>
 
-
-<p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40px" alt="Waving hand" />
-</p>
-
 ---
 
 ### 🌟 About Me  

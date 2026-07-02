@@ -12,7 +12,7 @@
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/book.svg" width="20" />
   <b>Currently learning Vue.js, Node.js, and secret</b><br>
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/wrench.svg" width="20" />
-  <b>Love building systems Joke</b><br>
+  <b>Love </b><br>
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/icons/stars.svg" width="20" />
   <b></b> I enjoy learning something new every day
 </p>
